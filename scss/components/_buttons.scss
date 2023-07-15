@@ -1,0 +1,40 @@
+.notion-site_btn{
+  position: relative;
+  color: #FFF;
+  font-family: Space Grotesk;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 2.286px;
+}
+.notion-site_btn:hover{
+  cursor: pointer;
+  color: #4EE1A0;
+}
+.notion-site_btn::after{
+  content: " ";
+  position: absolute;
+  background-color: #4EE1A0;
+  height: 3px;
+  left: 0;
+  width: 11.5rem;
+  bottom: -10px;
+}
+
+.site-line-white_part{
+  width: 44.5rem;
+  height: 1px;
+  background: #FFF;
+}
+.site-line-green_part{
+  width: 44.5rem;
+  height: 1px;
+  background: #4EE1A0 ;
+}
+.site-line-red_part {
+  width: 44.5rem;
+  height: 1px;
+  background: #FF6F5B;
+}
+

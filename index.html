@@ -1,22 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Name</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <!-- HEADER START -->
-    <header class="header"></header>
+    <header class="header">
+      <div class="header_container container">
+        <!-- SITE LOGO -->
+        <a class="site-header__logo logo" href="index.html">
+          <img
+            class="logo__img"
+            src="./images/svg/header-logo_akadamkeyes.svg"
+            alt=""
+            width="172"
+            height="30"
+          />
+        </a>
+        <!-- NAV HEADER -->
+        <nav class="sitenav">
+          <a class="sitenav-icons" href="#">
+            <img
+              class="sitenav-icon_img"
+              src="./images/svg/github-icon.svg"
+              alt="nav icons"
+            />
+          </a>
+          <a class="sitenav-icons" href="#">
+            <img
+              class="sitenav-icon_img"
+              src="./images/svg/simple-icon.svg"
+              alt="nav icons"
+            />
+          </a>
+          <a class="sitenav-icons" href="#">
+            <img
+              class="sitenav-icon_img"
+              src="./images/svg/linkedin-icon.svg"
+              alt="nav icons"
+            />
+          </a>
+          <a class="sitenav-icons" href="#">
+            <img
+              class="sitenav-icon_img"
+              src="./images/svg/twitter-icon.svg"
+              alt="nav icons"
+            />
+          </a>
+        </nav>
+      </div>
+    </header>
     <!-- HEADER END -->
-    
+
     <!-- MAIN START-->
-    <main class="main"></main>
+    <main class="main">
+      <section class="hero">
+        <div class="hero-circle-line_box">
+          <img src="./images/png/hero-circle-line.png" alt="hero circle img" />
+        </div>
+        <div class="hero_container container">
+          <div class="hero-wrapper">
+            <h1 class="hero-title">
+              Nice to meet you! I’m <span>adam keyes</span>.
+            </h1>
+            <p class="hero-text">
+              Based in the UK, I’m a front-end developer passionate about
+              building accessible web apps that users love.
+            </p>
+            <a class="notion-site_btn" href="#">contact me</a>
+          </div>
+          <div class="hero-info">
+            <div class="hero-info_images-part">
+              <img
+                class="hero-info_img"
+                src="./images/png/hero-bg-img.png"
+                alt="hero img"
+                width="444"
+                height="618"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section Experience -->
+      <section class="experience">
+        <div class="experience_container container">
+          <hr class="hr-line" />
+          <div class="practice-part">
+            <div class="practice-box html-practice-part">
+              <h1>html</h1>
+              <p>4 Years Experience</p>
+            </div>
+            <div class="practice-box css-practice-part">
+              <h1>css</h1>
+              <p>4 Years Experience</p>
+            </div>
+            <div class="practice-box java-practice-part">
+              <h1>javascript</h1>
+              <p>4 Years Experience</p>
+            </div>
+            <div class="practice-box accessibility-practice-part">
+              <h1>accessibility</h1>
+              <p>4 Years Experience</p>
+            </div>
+            <div class="practice-box react-practice-part">
+              <h1>react</h1>
+              <p>3 Years Experience</p>
+            </div>
+            <div class="practice-box sass-practice-part">
+              <h1>sass</h1>
+              <p>3 Years Experience</p>
+            </div>
+            <div class="circle-line_part">
+              <!-- <img src="./images/png/hero-circle-line.png" alt="hero circle img"> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects-part">
+        <div class="container">
+          <div class="projects-wrap">
+            <h1>Projects</h1>
+            <a class="notion-site_btn" href="#">contact me</a>
+          </div>
+          <div class="projects-parent_part">
+            <div class="project_box design_page">
+              <div class="design-page_img-box full-pages-img">
+                <img
+                  class="design-img full-pages-img"
+                  src="./images/png/design-page.png"
+                  alt="Design Page"
+                />
+              </div>
+              <h3>design portfolio</h3>
+              <p>html css</p>
+            </div>
+            <div class="project_box landing_page">
+              <div class="landing-page_img-box">
+                <img
+                  class="landing-img full-pages-img"
+                  src="./images/png/e-learning-landing-page.png"
+                  alt="Landing Page"
+                />
+              </div>
+              <h3>e-learning landing page</h3>
+              <p>html css</p>
+            </div>
+            <div class="project_box todo-web_box">
+              <div class="todo-web_page_img-box">
+                <img
+                  class="todo-web_img full-pages-img"
+                  src="./images/png/todo-web-page.png"
+                  alt="Todo Web Page"
+                />
+              </div>
+              <h3>todo web app</h3>
+              <p>html css javascript</p>
+            </div>
+            <div class="project_box entertainment-web_app">
+              <div class="entartainment-web-page_img-box">
+                <img
+                  class="entertainmment-web full-pages-img"
+                  src="./images/png/entertainment-web-page.png"
+                  alt="Entertainment Page"
+                />
+              </div>
+              <h3>entertainment web app</h3>
+              <p>html css javascript</p>
+            </div>
+            <div class="project_box memory_page">
+              <div class="memory-page_img-box">
+                <img
+                  class="memory-img full-pages-img"
+                  src="./images/png/memory-game-page.png"
+                  alt="Memory Page"
+                />
+              </div>
+              <h3>memory game</h3>
+              <p>html css javascript</p>
+            </div>
+            <div class="project_box design_page">
+              <div class="art-gallery_page_img-box">
+                <img
+                  class="art-gallery_img full-pages-img"
+                  src="./images/png/art-gallery-page.png"
+                  alt="Art Gallery Page"
+                />
+              </div>
+              <h3>art gallery showcase</h3>
+              <p>html css javascript</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- MAIN END-->
 
     <!-- FOOTER START -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer_container container">
+        <div class="footer-wrap">
+          <h1>contact</h1>
+          <p>
+            I would love to hear about your project and how I could help. Please
+            fill in the form, and I’ll get back to you as soon as possible.
+          </p>
+        </div>
+        <div class="input_box">
+          <label for="">
+            <input class="input" type="text" placeholder="name" />
+          </label>
+          <label for="">
+            <input class="input" type="email" placeholder="email" />
+          </label>
+          <label for="">
+            <input class="inputs input" type="text" placeholder="message" />
+          </label>
+          <a class="notion-site_btn" href="#">send message</a>
+        </div>
+      </div>
+      <hr>
+      <div class="footer-end container">
+        <div class="footer-logo_box">
+            <a href="#">
+                <img class="footer-logo_img" src="./images/svg/header-logo_akadamkeyes.svg" alt="footer-logo">
+            </a>
+        </div>
+        <div class="footer-icons_box">
+             <div class="footer-icons">
+                <img class="footer-icon_img" src="./images/svg/github-icon.svg" alt="footer icon">
+            </div>
+            <div class="footer-icons">
+                <img class="footer-icon_img" src="./images/svg/simple-icon.svg" alt="footer icon">
+            </div>
+             <div class="footer-icons">
+                <img class="footer-icon_img" src="./images/svg/linkedin-icon.svg" alt="footer icon">
+            </div>
+             <div class="footer-icons">
+                <img class="footer-icon_img" src="./images/svg/twitter-icon.svg" alt="footer icon">
+            </div>
+        </div>
+      </div>
+    </footer>
     <!-- FOOTER END -->
-</body>
+  </body>
 </html>
